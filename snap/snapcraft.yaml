@@ -1,0 +1,32 @@
+name: clera 
+#adopt-info: clera
+version: '0.1'
+summary: Blows your terminal up
+description: |
+  Blows your terminal up when you mistype "clear" (i.e. clera). 
+
+license: MIT
+
+base: core20
+grade: stable 
+confinement: strict 
+
+apps:
+  clera:
+    command: bin/clera.py
+     
+parts: 
+  clera:
+    source: https://github.com/kz6fittycent/clera
+    source-type: git
+    plugin: python
+    
+#    override-pull: |
+#      snapcraftctl pull
+#      snapcraftctl set-version "$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"    
+
+  publish:
+    plugin: dump
+    source: .
+    organize:
+      ./clera.py: bin/clera.py
