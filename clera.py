@@ -2,6 +2,7 @@
 
 import time
 import sys
+import os
 
 def animate_clera():
     frames = [
@@ -111,16 +112,17 @@ def animate_clera():
       """
     ]
 
-    while True:
+    try:
         for frame in frames:
             clear = "\033[H\033[J"  # ANSI escape code to clear the terminal
             sys.stdout.write(clear)
             print(frame)
-            time.sleep(0.2)
-
-if __name__ == "__main__":
-    try:
-        animate_clera()
+            time.sleep(0.3)
     except KeyboardInterrupt:
         sys.exit(0)
+        
+if __name__ == "__main__":
+    animate_clera()
+time.sleep(0.4)    
+os.system('clear')
 
