@@ -7,7 +7,7 @@ import os
 def animate_clera():
     frames = [
         r"""
-          *
+        *
              
    
    
@@ -16,7 +16,7 @@ def animate_clera():
         """,
         r"""
             
-            *
+          *
             
             
         """,
@@ -25,7 +25,7 @@ def animate_clera():
         
         
          
-              *
+            *
               
               
         """,
@@ -35,7 +35,7 @@ def animate_clera():
         
         
         
-                *
+              *
                 
                 
         """,
@@ -47,7 +47,7 @@ def animate_clera():
         
                 
                   
-                  *
+                    *
                 
                 
         """,
@@ -59,7 +59,7 @@ def animate_clera():
                 
                 
                      
-                    *
+                        *
                 
         """,
         r"""
