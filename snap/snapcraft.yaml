@@ -6,7 +6,7 @@ description: |
 
 license: MIT
 
-base: core22
+base: core24
 grade: stable 
 confinement: strict 
 
@@ -21,8 +21,8 @@ parts:
     plugin: python
     
     override-pull: |
-      snapcraftctl pull
-      snapcraftctl set-version "$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"    
+      craftctl default
+      craftctl set version="$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"
 
   publish:
     plugin: dump
