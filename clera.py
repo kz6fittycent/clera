@@ -12,12 +12,30 @@ def animate_clera():
    
    
    
+
+
+
+
+
+
+
+
    
         """,
         r"""
             
           *
             
+
+
+
+
+
+
+
+
+
+
             
         """,
         
@@ -27,6 +45,14 @@ def animate_clera():
          
             *
               
+
+
+
+
+
+
+
+
               
         """,
 
@@ -37,10 +63,17 @@ def animate_clera():
         
               *
                 
+
+
+
+
+
+
+
                 
         """,
         
-                r"""   
+        r"""   
         
         
         
@@ -49,9 +82,14 @@ def animate_clera():
                   
                  *
                 
+
+
+
+
+
                 
         """,
-                r"""   
+        r"""   
         
         
         
@@ -60,6 +98,11 @@ def animate_clera():
                 
                      
                    *
+
+
+
+
+
                 
         """,
         r"""
@@ -110,7 +153,7 @@ def animate_clera():
                  CcQ0;cCQOo0.o       
        ________CcQ0;cCQOo0.0oCQe._________
       """,
-    r"""
+      r"""
   
       
             
@@ -137,13 +180,13 @@ def animate_clera():
 
 
 
-
                       *  %  '  "    :
                   '   _____   ,
                     '/_ - _\         
              _______/_||||||\_________  
    """,
    r"""
+
 
 
 
@@ -219,6 +262,7 @@ def animate_clera():
 
 
 
+
          __________________*_________________
     """,
     r"""
@@ -252,4 +296,3 @@ if __name__ == "__main__":
     animate_clera()
 time.sleep(0.4)    
 os.system('clear')
-
