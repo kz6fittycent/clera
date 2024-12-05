@@ -9,4 +9,7 @@ For when you misspell the `clear` command.
 sudo snap install clera
 ```
 
+#### If you like what I'm doing, please consider supporting me on Patreon!
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/kz6fittycent)  
+
 Enjoy!
